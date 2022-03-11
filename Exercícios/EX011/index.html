@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem responsiva</title>
+</head>
+<body>
+    <picture>
+       <source media="(max-width:750px )" srcset="imagens/foto-p.png" type="image/png">
+       <source media="(max-width:1050px)" srcset="imagens/foto-m.png" type="image/png">
+       <img src="imagens/foto-g.png" alt="Foto tamanho G">
+    </picture>
+    <picture>
+        <source media="(max-width: 750px )" srcset=" imagens/Ruan-pequeno.png" type="image/png">
+        <source media="(max-width: 1050px )" srcset="imagens/Ruan-medio.png" type="image/png">
+        <img src="imagens/Ruan-grande.png" alt="Foto de Ruan grande">
+    </picture>
+    <audio controls > 
+<source src="sons/som01.mp3" type="audio/mpeg">
+
+    </audio>
+    <p>Caso o seu aúdio não funcione no site, <a href="sons/som01.mp3" download="som01.mp3" type="audio/mpeg">clique aqui para fazer o download dele</a></p>
+</body>
+</html>
+
