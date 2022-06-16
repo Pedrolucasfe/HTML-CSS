@@ -28,12 +28,6 @@ ul a {
     background-color: #F7B600;
 }
 
-ul a:hover,  {
-    background-position: right bottom;
-    background-color: #F99200;
-    color: #FFF;
-}
-
 
 #home #navegacao .home a,
 #servicos #navegacao .servicos a,
